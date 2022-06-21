@@ -38,7 +38,7 @@ class administration(commands.Cog):
         print('[]администрация была запущина[]')
 
     @commands.command(
-        aliases=['очистить', 'clear'],
+        aliases=['очистить', 'cler'],
         description='удалить сообщения',
         usage='clear <число сообщений>'
     )
